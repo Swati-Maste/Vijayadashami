@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('IMG/14.jpg');
+    background-position: center;
+    background-size: contain;
+    position: relative;
+}
+ 
+h1 {
+    color: aliceblue; 
+    text-align: center; 
+    text-decoration: none;
+    font-size: 100px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+p{
+    
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+
+}
+.nav-links ul li{
+    padding-bottom: 9px;
+    list-style: none;
+}
+
+.fav{
+    color: whitesmoke;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 25px;
+    background:transparent ;
+    position: relative;
+
+}
+
+/*------ about dussehra-----------------------
+.sub-header{
+    height:50vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,07),rgba(4,9,30,0.7)),url('15.jpg')
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+}*/
+.sub-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("IMG/5.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    font-size:12px;
+
+}
+.about dasara{
+    width:80%;
+    margin:auto;
+    padding-top:80px;
+    padding-bottom:50px;
+}/*
+.about-col{
+    flex-basis:48%;
+    padding:30px 2px;
+    font-size:10 px;
+    width:350px;
+    border:1px solid #ccc;
+    float:left;
+    font-color:black;
+}
+.about-col img{
+    width:100%;
+    height:auto
+}*/
+.about-col h1{
+    color:black;
+    text-align:center;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    background:palegoldenrod;
+    overflow:auto;
+}
+/*
+.gallery{
+    margin:5px;
+    border:1px solid #ccc;
+    float:left;
+    width:400px;
+}*/
+.gallery img{
+    width:100%;
+    height:auto;
+}
+.desc{
+    padding:15px 0 25px;
+    text-align:center;
+    font-weight:bolder;
+    font-size:25px
+}
+.about-col p{ 
+    padding:15px 0 25px;
+    font-size:18px;
+    color:black;
+    font-weight: bolder;
+    font-style:italic;
+    text-align:center;
+    background-color:rgb(247, 244, 65);
+
+}
+.row{
+    max-width:1000px;
+    margin:auto;
+    overflow:auto;
+}
